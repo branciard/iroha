@@ -2,9 +2,23 @@ version: '2'
 
 services:
   iroha-dev:
-    build: ./iroha-dev
+    build: ./iroha-docker/iroha-dev
     volumes:
       # mounts current folder into container's /opt. 
       # Note: permissions and ownership will be transfered 1-to-1. 
       # It means, that file owned by user:user (id=1000) will be owned by user:user (id=1000) inside container!
       - "../iroha:/opt/iroha"
+
+  iroha:
+    build: ./iroha-docker/iroha-dev
+    depends_on:
+      - iroha-dev
+
+  iroha-sub-branch:
+    build:
+      context: .
+      args: ./iroha-docker/iroha-sub-branch
+    depends_on:
+      - iroha-dev
+    ports:
+     - "1204:1204"
