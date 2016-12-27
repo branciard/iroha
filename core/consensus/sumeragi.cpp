@@ -78,13 +78,13 @@ namespace sumeragi {
             unsigned int sum = 0;
             logger::explore("sumeragi", "getNumValidSignatures start");
             for(auto&& esig: event.eventsignatures()){
-                 logger::explore("sumeragi", "esig from  event.eventsignatures() : "+esig);
+                 logger::explore("sumeragi", "esig from  event.eventsignatures() :");
                 if(signature::verify( esig.signature(), event.transaction().hash(), esig.publickey())){
                  logger::explore("sumeragi", "signature form esig.publickey() : "+esig.publickey());
                     sum++;
                 }
             }
-            logger::explore("sumeragi", "getNumValidSignatures end with sum"+sum);
+            logger::explore("sumeragi", "getNumValidSignatures end with sum:"+sum);
             return sum;
         }
 
