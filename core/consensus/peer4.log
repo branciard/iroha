@@ -1,0 +1,90 @@
+1482882597[sumeragi] +==ーーーーーーーーー==+
+1482882597[sumeragi] |+-ーーーーーーーーー-+|
+1482882597[sumeragi] || 　　　　　　　　　 ||
+1482882597[sumeragi] || いろは合意形成機構 ||
+1482882597[sumeragi] || 　　　すめらぎ　　 ||
+1482882597[sumeragi] || 　　　　　　　　　 ||
+1482882597[sumeragi] |+-ーーーーーーーーー-+|
+1482882597[sumeragi] +==ーーーーーーーーー==+
+1482882597[sumeragi] - 起動/setup
+1482882597[sumeragi] - 初期設定/initialize
+1482882597 INFO [sumeragi] My key is 172.17.0.5
+1482882597 INFO [sumeragi] Sumeragi setted
+1482882597 INFO [sumeragi] set number of validatingPeer
+1482882597 INFO [sumeragi] initialize numValidatingPeers :4
+1482882597 INFO [sumeragi] initialize maxFaulty :1
+1482882597 INFO [sumeragi] initialize proxyTailNdx :3
+1482882597 INFO [sumeragi] initialize panicCount :0
+1482882597 INFO [sumeragi] initialize myPublicKey :Sht5opDIxbyK+oNuEnXUs5rLbrvVgb2GjSPfqIYGFdU=
+1482882597 INFO [sumeragi] initialize is sumeragi :0
+1482882597 INFO [sumeragi] initialize.....  complete!
+1482882597 INFO [server] initialize server!
+1482882597 INFO [server] start server!
+1482882597 INFO [sumeragi] =+=
+1482882597 INFO [sumeragi] start main loop
+1482882726 INFO [connection] size: 2
+1482882726 INFO [sumeragi] receive!
+1482882726 INFO [sumeragi] received message! sig:[2]
+1482882726 DEBUG [repo::event] event::add
+1482882726 DEBUG [repo::event] events size = 1
+1482882726 INFO [sumeragi] event queue not empty
+1482882726 DEBUG [repo::event] events size = 1
+1482882726 INFO [sumeragi] sorted 1
+1482882726 INFO [sumeragi] evens order:0
+1482882726 INFO [sumeragi] processTransaction
+1482882726 INFO [sumeragi] valied
+1482882726 INFO [sumeragi] Add my signature...
+1482882726 INFO [sumeragi] hash:765099452ec465978bceec9ec75baddde0f08dff8ed0750b71aee7c2e82b0f52
+1482882726 INFO [sumeragi] pub:Sht5opDIxbyK+oNuEnXUs5rLbrvVgb2GjSPfqIYGFdU=
+1482882726 INFO [sumeragi] pro:aGIuSZRhnGfFyeoKNm/NbTylnAvRfMu3KumOEfyT2HPf36jSF22m2JXWrdCmKiDoshVqjFtZPX3WXaNuo9L8WA==
+1482882726 INFO [sumeragi] sog:AJZwCtFlemsF9FL1kA/X4SmikLzxnpSIOLWrPgTK63hNtvWw9iebuEYxdnDW6/l3HE9Ipns2cL5VLfyEhtSzDA==
+1482882726[sumeragi] getNumValidSignatures start
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : Sht5opDIxbyK+oNuEnXUs5rLbrvVgb2GjSPfqIYGFdU=
+1482882726[sumeragi] NumValidSignatures end with sum:
+1482882726 INFO [sumeragi] Signature exists
+1482882726[sumeragi] 0--------------------------0
+1482882726[sumeragi] +~~~~~~~~~~~~~~~~~~~~~~~~~~+
+1482882726[sumeragi] |Would you agree with this?|
+1482882726[sumeragi] +~~~~~~~~~~~~~~~~~~~~~~~~~~+
+1482882726[sumeragi] 0================================================================0
+1482882726[sumeragi] 0765099452ec465978bceec9ec75baddde0f08dff8ed0750b71aee7c2e82b0f520
+1482882726[sumeragi] 0================================================================0
+1482882726[sumeragi] getNumValidSignatures start
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882726[sumeragi] esig from  event.eventsignatures() :
+1482882726[sumeragi] signature form esig.publickey() : Sht5opDIxbyK+oNuEnXUs5rLbrvVgb2GjSPfqIYGFdU=
+1482882726[sumeragi] NumValidSignatures end with sum:
+1482882726[sumeragi] +-ー-++-ー-++-ー-++-ー-+
+1482882726[sumeragi] | 　 || 　 || 　 || 　 |
+1482882726[sumeragi] |-承-||-承-||-承-|| 否 |
+1482882726[sumeragi] | 　 || 　 || 　 || 　 |
+1482882726[sumeragi] +-＝-++-＝-++-＝-++-＝-+
+1482882726[sumeragi] ==＝====＝====＝====＝==
+1482882726[sumeragi] numValidSignatures:3 faulty:3
+1482882726[sumeragi] +==ーー==+
+1482882726[sumeragi] |+-ーー-+|
+1482882726[sumeragi] || 承認 ||
+1482882726[sumeragi] |+-ーー-+|
+1482882726[sumeragi] +==ーー==+
+1482882726[sumeragi] commit
+1482882726[sumeragi] commit count:1
+1482882726 DEBUG [sumeragi] key[_1482882726]
++-ーーーーーーーーーーーー-+
+1482882726 DEBUG [sumeragi] tx:Add
+1482882726 DEBUG [sumeragi] exec <Add<Account>>
+1482882726 DEBUG [Add<Account>] save publicKey:xrXCjvMwFf3LGMZ6w//rB6JHtvL0iQpiwaiVYWMIE9k= name:francois
+1482882726 DEBUG [AccountRepository] Add publicKey:xrXCjvMwFf3LGMZ6w//rB6JHtvL0iQpiwaiVYWMIE9k= alias:francois
+1482882726 DEBUG [AccountRepository] Save key:b066d90cc6a261371dc014cfd32c08c731f8d6b1cb6e212654c3506044cf729c alias:francois
+1482882732 DEBUG [Cappuccino] param's uuid is b066d90cc6a261371dc014cfd32c08c731f8d6b1cb6e212654c3506044cf729c
+1482882732 DEBUG [AccountRepository]  data:
+,xrXCjvMwFf3LGMZ6w//rB6JHtvL0iQpiwaiVYWMIE9kfrancois
+1482882732 DEBUG [Cappuccino] name: francois
+1482882732 DEBUG [Cappuccino] publicKey: xrXCjvMwFf3LGMZ6w//rB6JHtvL0iQpiwaiVYWMIE9k=

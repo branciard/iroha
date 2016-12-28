@@ -1,0 +1,91 @@
+1482882592[sumeragi] +==ーーーーーーーーー==+
+1482882592[sumeragi] |+-ーーーーーーーーー-+|
+1482882592[sumeragi] || 　　　　　　　　　 ||
+1482882592[sumeragi] || いろは合意形成機構 ||
+1482882592[sumeragi] || 　　　すめらぎ　　 ||
+1482882592[sumeragi] || 　　　　　　　　　 ||
+1482882592[sumeragi] |+-ーーーーーーーーー-+|
+1482882592[sumeragi] +==ーーーーーーーーー==+
+1482882592[sumeragi] - 起動/setup
+1482882592[sumeragi] - 初期設定/initialize
+1482882592 INFO [sumeragi] My key is 172.17.0.2
+1482882592 INFO [sumeragi] Sumeragi setted
+1482882592 INFO [sumeragi] set number of validatingPeer
+1482882592 INFO [sumeragi] initialize numValidatingPeers :4
+1482882592 INFO [sumeragi] initialize maxFaulty :1
+1482882592 INFO [sumeragi] initialize proxyTailNdx :3
+1482882592 INFO [sumeragi] initialize panicCount :0
+1482882592 INFO [sumeragi] initialize myPublicKey :jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882592 INFO [sumeragi] initialize is sumeragi :1
+1482882592 INFO [sumeragi] initialize.....  complete!
+1482882592 INFO [sumeragi] =+=
+1482882592 INFO [sumeragi] start main loop
+1482882592 INFO [server] initialize server!
+1482882592 INFO [server] start server!
+1482882724 INFO [WorldStateRepositoryWithLeveldb] NotFound: 
+1482882724 INFO [WorldStateRepositoryWithLeveldb] NotFound: 
+1482882724 DEBUG [AccountRepository]  data:
+1482882724 INFO [connection] start send
+1482882724 INFO [connection] create client
+1482882724 INFO [connection] invoke client Operation
+1482882724 INFO [connection] size 0
+1482882724 INFO [connection] Operation
+1482882724 INFO [connection] size: 0
+1482882724 INFO [connection] name: 
+1482882724 INFO [connection] size: 0
+1482882724 INFO [sumeragi] receive!
+1482882724 INFO [sumeragi] received message! sig:[0]
+1482882724 DEBUG [repo::event] event::add
+1482882724 DEBUG [repo::event] events size = 1
+1482882724 INFO [sumeragi] event queue not empty
+1482882724 DEBUG [repo::event] events size = 1
+1482882724 INFO [sumeragi] sorted 1
+1482882724 INFO [sumeragi] evens order:0
+1482882724 INFO [connection] response:OK
+1482882724 INFO [sumeragi] processTransaction
+1482882724 INFO [sumeragi] valied
+1482882724 INFO [sumeragi] Add my signature...
+1482882724 INFO [sumeragi] hash:765099452ec465978bceec9ec75baddde0f08dff8ed0750b71aee7c2e82b0f52
+1482882724 INFO [sumeragi] pub:jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882724 INFO [sumeragi] pro:iJy2wzgM0Ffmur2xDNlnhYK7CiAYZoup/045JXJTbUzuE9c6HeUIf7hoqtppEsZQncC1EEw+gGhboLcbMNKadw==
+1482882724 INFO [sumeragi] sog:dsGPtF6KquADWCZh2bgejS9hTysCk/7ir5CChXprGMIIqPVV9Rz3E+SBvSf8bBn8XGeE9u7A9UiFOqXogQJ9CQ==
+1482882724[sumeragi] getNumValidSignatures start
+1482882724[sumeragi] esig from  event.eventsignatures() :
+1482882724[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882724[sumeragi] etNumValidSignatures end with sum:
+1482882724 INFO [sumeragi] tail pubkey is Sht5opDIxbyK+oNuEnXUs5rLbrvVgb2GjSPfqIYGFdU=
+1482882724 INFO [sumeragi] tail is 3
+1482882724 INFO [sumeragi] my pubkey is jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882724[sumeragi] getNumValidSignatures start
+1482882724[sumeragi] esig from  event.eventsignatures() :
+1482882724[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882724[sumeragi] esig from  event.eventsignatures() :
+1482882724[sumeragi] signature form esig.publickey() : jDQTiJ1dnTSdGH+yuOaPPZIepUj1Xt3hYOvLQTME3V0=
+1482882724[sumeragi] tNumValidSignatures end with sum:
+1482882724 INFO [sumeragi] Send All! sig:[2]
+1482882724 INFO [connection] start send
+1482882724 INFO [connection] create client
+1482882724 INFO [connection] invoke client Operation
+1482882724 INFO [connection] size 2
+1482882724 INFO [connection] Operation
+1482882724 INFO [connection] size: 2
+1482882724 INFO [connection] name: 
+14: 
+1482882725 INFO [connection] start send
+1482882725 INFO [connection] create client
+1482882725 INFO [connection] invoke client Operation
+1482882725 INFO [connection] size 2
+1482882725 INFO [connection] Operation
+1482882725 INFO [connection] size: 2
+1482882725 INFO [connection] name: 
+14: 
+1482882726 INFO [connection] start send
+1482882726 INFO [connection] create client
+1482882726 INFO [connection] invoke client Operation
+1482882726 INFO [connection] size 2
+1482882726 INFO [connection] Operation
+1482882726 INFO [connection] size: 2
+1482882726 INFO [connection] name: 
+1482882726 INFO [connection] response:OK
+1482882726 INFO [sumeragi] broadcastEnd:3
+1482882726 INFO [sumeragi] broadcastStart:3
